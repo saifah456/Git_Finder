@@ -1,17 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<img alt="git logo" src="./assets/git.png">
+
+   <home_git/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import home_git from './components/home_git.vue'
+
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+   
+   components :{
+              home_git
+   }
+  
   }
-}
+
 </script>
 
 <style>
